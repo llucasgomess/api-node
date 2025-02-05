@@ -1,7 +1,6 @@
-import { server } from './server/Server'
+import { server } from "./server/Server";
 
-const PORT = 3000
 
-server.listen(PORT, () =>
-  console.log(`Server is running http://localhost:${PORT}`)
+server.listen(process.env.PORT || 3001, () =>
+  console.log(`Server is running http://localhost:${process.env.PORT || 3001}`)
 )

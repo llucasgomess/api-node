@@ -1,3 +1,6 @@
+// ### `routes/`
+// Esta pasta contém todos os arquivos responsáveis por definir os endpoints da API. As rotas apenas recebem a requisição e delegam a lógica de negócio para os controladores.
+
 import { Request, type Response, Router } from 'express';
 import { StatusCodes } from "http-status-codes";
 

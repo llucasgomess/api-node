@@ -1,3 +1,6 @@
+// ### `index.ts`
+// Este é o arquivo principal da aplicação. Ele configura e inicia o servidor, importando as rotas e aplicando os middlewares globais.
+
 import { server } from "./server/Server";
 
 
